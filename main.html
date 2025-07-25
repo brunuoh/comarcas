@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Download por Comarca</title>
+</head>
+<body>
+  <h1>Baixar planilha por Comarca</h1>
+  <label for="comarca">Escolha a comarca:</label>
+  <select id="comarca">
+    <option value="">-- Selecione --</option>
+    <option value="AGUDO">Agudo</option>
+    <option value="ALEGRETE">Alegrete</option>
+    <option value="ALVORADA">Alvorada</option>
+    <option value="ANTÔNIO PRADO">Antônio Prado</option>
+    <option value="ARROIO DO MEIO">Arroio Do Meio</option>
+    <option value="ARROIO DO TIGRE">Arroio Do Tigre</option>
+    <option value="ARROIO GRANDE">Arroio Grande</option>
+    <option value="ARVOREZINHA">Arvorezinha</option>
+    <option value="AUGUSTO PESTANA">Augusto Pestana</option>
+    <option value="BAGÉ">Bagé</option>
+    <option value="BARRA DO RIBEIRO">Barra Do Ribeiro</option>
+    <option value="BENTO GONÇALVES">Bento Gonçalves</option>
+    <option value="BOM JESUS">Bom Jesus</option>
+    <option value="BUTIÁ">Butiá</option>
+    <option value="CACEQUI">Cacequi</option>
+    <option value="CACHOEIRA DO SUL">Cachoeira Do Sul</option>
+    <option value="CACHOEIRINHA">Cachoeirinha</option>
+    <option value="CAMAQUÃ">Camaquã</option>
+    <option value="CAMPINA DAS MISSÕES">Campina Das Missões</option>
+    <option value="CAMPO BOM">Campo Bom</option>
+    <option value="CAMPO NOVO">Campo Novo</option>
+    <option value="CANDELÁRIA">Candelária</option>
+    <option value="CANELA">Canela</option>
+    <option value="CANGUÇU">Canguçu</option>
+    <option value="CANOAS">Canoas</option>
+    <option value="CAPÃO DA CANOA">Capão Da Canoa</option>
+    <option value="CARAZINHO">Carazinho</option>
+    <option value="CARLOS BARBOSA">Carlos Barbosa</option>
+    <option value="CASCA">Casca</option>
+    <option value="CATUÍPE">Catuípe</option>
+    <option value="CAXIAS DO SUL">Caxias Do Sul</option>
+    <option value="CAÇAPAVA DO SUL">Caçapava Do Sul</option>
+    <option value="CERRO LARGO">Cerro Largo</option>
+    <option value="CHARQUEADAS">Charqueadas</option>
+    <option value="CONSTANTINA">Constantina</option>
+    <option value="CORONEL BICACO">Coronel Bicaco</option>
+    <option value="CRISSIUMAL">Crissiumal</option>
+    <option value="CRUZ ALTA">Cruz Alta</option>
+    <option value="DOIS IRMÃOS">Dois Irmãos</option>
+    <option value="DOM PEDRITO">Dom Pedrito</option>
+    <option value="ELDORADO DO SUL">Eldorado Do Sul</option>
+    <option value="ENCANTADO">Encantado</option>
+    <option value="ENCRUZILHADA DO SUL">Encruzilhada Do Sul</option>
+    <option value="ERECHIM">Erechim</option>
+    <option value="ESPUMOSO">Espumoso</option>
+    <option value="ESTEIO">Esteio</option>
+    <option value="ESTRELA">Estrela</option>
+    <option value="ESTÂNCIA VELHA">Estância Velha</option>
+    <option value="FARROUPILHA">Farroupilha</option>
+    <option value="FAXINAL DO SOTURNO">Faxinal Do Soturno</option>
+    <option value="FELIZ">Feliz</option>
+    <option value="FLORES DA CUNHA">Flores Da Cunha</option>
+    <option value="Porto Alegre">Porto Alegre</option>
+    <option value="FORO REGIONAL DA RESTINGA">Foro Regional Da Restinga</option>
+    <option value="FORO REGIONAL DA TRISTEZA">Foro Regional Da Tristeza</option>
+    <option value="FORO REGIONAL DO ALTO PETRÓPOLIS">Foro Regional Do Alto Petrópolis</option>
+    <option value="FORO REGIONAL DO PARTENON">Foro Regional Do Partenon</option>
+    <option value="FREDERICO WESTPHALEN">Frederico Westphalen</option>
+    <option value="GARIBALDI">Garibaldi</option>
+    <option value="GAURAMA">Gaurama</option>
+    <option value="GENERAL CÂMARA">General Câmara</option>
+    <option value="GETÚLIO VARGAS">Getúlio Vargas</option>
+    <option value="GIRUÁ">Giruá</option>
+    <option value="GRAMADO">Gramado</option>
+    <option value="GRAVATAÍ">Gravataí</option>
+    <option value="GUAPORÉ">Guaporé</option>
+    <option value="GUARANI DAS MISSÕES">Guarani Das Missões</option>
+    <option value="GUAÍBA">Guaíba</option>
+    <option value="HERVAL">Herval</option>
+    <option value="HORIZONTINA">Horizontina</option>
+    <option value="IBIRUBÁ">Ibirubá</option>
+    <option value="IGREJINHA">Igrejinha</option>
+    <option value="IJUÍ">Ijuí</option>
+    <option value="IRAÍ">Iraí</option>
+    <option value="ITAQUI">Itaqui</option>
+    <option value="IVOTI">Ivoti</option>
+    <option value="JAGUARI">Jaguari</option>
+    <option value="JAGUARÃO">Jaguarão</option>
+    <option value="JÚLIO DE CASTILHOS">Júlio De Castilhos</option>
+    <option value="LAGOA VERMELHA">Lagoa Vermelha</option>
+    <option value="LAJEADO">Lajeado</option>
+    <option value="LAVRAS DO SUL">Lavras Do Sul</option>
+    <option value="MARAU">Marau</option>
+    <option value="MARCELINO RAMOS">Marcelino Ramos</option>
+    <option value="MONTENEGRO">Montenegro</option>
+    <option value="MOSTARDAS">Mostardas</option>
+    <option value="NONOAI">Nonoai</option>
+    <option value="NOVA PETRÓPOLIS">Nova Petrópolis</option>
+    <option value="NOVA PRATA">Nova Prata</option>
+    <option value="NOVO HAMBURGO">Novo Hamburgo</option>
+    <option value="NÃO-ME-TOQUE">Não-Me-Toque</option>
+    <option value="OSÓRIO">Osório</option>
+    <option value="PALMARES DO SUL">Palmares Do Sul</option>
+    <option value="PALMEIRA DAS MISSÕES">Palmeira Das Missões</option>
+    <option value="PANAMBI">Panambi</option>
+    <option value="PAROBÉ">Parobé</option>
+    <option value="PASSO FUNDO">Passo Fundo</option>
+    <option value="PEDRO OSÓRIO">Pedro Osório</option>
+    <option value="PELOTAS">Pelotas</option>
+    <option value="PINHEIRO MACHADO">Pinheiro Machado</option>
+    <option value="PIRATINI">Piratini</option>
+    <option value="PLANALTO">Planalto</option>
+    <option value="PORTO XAVIER">Porto Xavier</option>
+    <option value="PORTÃO">Portão</option>
+    <option value="QUARAÍ">Quaraí</option>
+    <option value="RESTINGA SECA">Restinga Seca</option>
+    <option value="RIO GRANDE">Rio Grande</option>
+    <option value="RIO PARDO">Rio Pardo</option>
+    <option value="RODEIO BONITO">Rodeio Bonito</option>
+    <option value="RONDA ALTA">Ronda Alta</option>
+    <option value="ROSÁRIO DO SUL">Rosário Do Sul</option>
+    <option value="SALTO DO JACUÍ">Salto Do Jacuí</option>
+    <option value="SANANDUVA">Sananduva</option>
+    <option value="SANTA BÁRBARA DO SUL">Santa Bárbara Do Sul</option>
+    <option value="SANTA CRUZ DO SUL">Santa Cruz Do Sul</option>
+    <option value="SANTA MARIA">Santa Maria</option>
+    <option value="SANTA ROSA">Santa Rosa</option>
+    <option value="SANTA VITÓRIA DO PALMAR">Santa Vitória Do Palmar</option>
+    <option value="SANTANA DO LIVRAMENTO">Santana Do Livramento</option>
+    <option value="SANTIAGO">Santiago</option>
+    <option value="SANTO ANTÔNIO DA PATRULHA">Santo Antônio Da Patrulha</option>
+    <option value="SANTO ANTÔNIO DAS MISSÕES">Santo Antônio Das Missões</option>
+    <option value="SANTO AUGUSTO">Santo Augusto</option>
+    <option value="SANTO CRISTO">Santo Cristo</option>
+    <option value="SANTO ÂNGELO">Santo Ângelo</option>
+    <option value="SAPIRANGA">Sapiranga</option>
+    <option value="SAPUCAIA DO SUL">Sapucaia Do Sul</option>
+    <option value="SARANDI">Sarandi</option>
+    <option value="SEBERI">Seberi</option>
+    <option value="SOBRADINHO">Sobradinho</option>
+    <option value="SOLEDADE">Soledade</option>
+    <option value="SÃO BORJA">São Borja</option>
+    <option value="SÃO FRANCISCO DE ASSIS">São Francisco De Assis</option>
+    <option value="SÃO FRANCISCO DE PAULA">São Francisco De Paula</option>
+    <option value="SÃO GABRIEL">São Gabriel</option>
+    <option value="SÃO JERÔNIMO">São Jerônimo</option>
+    <option value="SÃO JOSÉ DO NORTE">São José Do Norte</option>
+    <option value="SÃO JOSÉ DO OURO">São José Do Ouro</option>
+    <option value="SÃO LEOPOLDO">São Leopoldo</option>
+    <option value="SÃO LOURENÇO DO SUL">São Lourenço Do Sul</option>
+    <option value="SÃO LUIZ GONZAGA">São Luiz Gonzaga</option>
+    <option value="SÃO MARCOS">São Marcos</option>
+    <option value="SÃO PEDRO DO SUL">São Pedro Do Sul</option>
+    <option value="SÃO SEBASTIÃO DO CAÍ">São Sebastião Do Caí</option>
+    <option value="SÃO SEPÉ">São Sepé</option>
+    <option value="SÃO VALENTIM">São Valentim</option>
+    <option value="SÃO VICENTE DO SUL">São Vicente Do Sul</option>
+    <option value="TAPEJARA">Tapejara</option>
+    <option value="TAPERA">Tapera</option>
+    <option value="TAPES">Tapes</option>
+    <option value="TAQUARA">Taquara</option>
+    <option value="TAQUARI">Taquari</option>
+    <option value="TENENTE PORTELA">Tenente Portela</option>
+    <option value="TERRA DE AREIA">Terra De Areia</option>
+    <option value="TEUTÔNIA">Teutônia</option>
+    <option value="TORRES">Torres</option>
+    <option value="TRAMANDAÍ">Tramandaí</option>
+    <option value="TRIUNFO">Triunfo</option>
+    <option value="TRÊS COROAS">Três Coroas</option>
+    <option value="TRÊS DE MAIO">Três De Maio</option>
+    <option value="TRÊS PASSOS">Três Passos</option>
+    <option value="TUCUNDUVA">Tucunduva</option>
+    <option value="TUPANCIRETÃ">Tupanciretã</option>
+    <option value="URUGUAIANA">Uruguaiana</option>
+    <option value="VACARIA">Vacaria</option>
+    <option value="VENÂNCIO AIRES">Venâncio Aires</option>
+    <option value="VERA CRUZ">Vera Cruz</option>
+    <option value="VERANÓPOLIS">Veranópolis</option>
+    <option value="VIAMÃO">Viamão</option>
+  </select>
+
+  <button onclick="baixarPlanilha()">Baixar</button>
+
+  <script>
+    function baixarPlanilha() {
+      const comarca = document.getElementById("comarca").value.trim();
+      if (!comarca) {
+        alert("Selecione uma comarca.");
+        return;
+      }
+
+      const nomeArquivo = `Comarca_${comarca.replace(/ /g, '%20')}.xlsx`;
+      window.location.href = `${nomeArquivo}`;
+    }
+  </script>
+</body>
+</html>
